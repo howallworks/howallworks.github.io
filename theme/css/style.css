@@ -1,0 +1,154 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	background-color: #222;
+	padding-top: 75px;
+}
+
+section {
+    padding-top: 75px;
+    margin-top: -75px;
+}
+
+p {
+    text-indent: 20px;
+	text-align: justify;
+}
+
+a, a:hover, a:focus  {
+	color: #FF8C00;
+}
+
+.navbar-default {
+	background-color: #FF8C00;
+	border-color: #222;
+}
+
+.navbar .sitename a {
+	font-family: 'Lobster', cursive;	
+	font-weight: 500;
+	font-size: 30px;
+	color: #222;
+}
+	
+.navbar-default .navbar-nav > li > a {
+	color: #222;
+	font-size: 18px;
+}
+
+ul.list-group.list-group-flush.tagcloud {
+	background-color: #006400;
+	border: #FF8C00;
+}
+
+.main-container {
+	min-height: 85%;
+}
+
+article {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+h1, .white-line {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#tags > .cloud-tag {
+	background-color: #222;
+	border-radius: 8px;
+	padding: 5px 15px;
+	margin-bottom: 5px;
+}
+
+.back-container {
+    position: fixed;
+	z-index: 10;
+    height: 20px;
+	width: 92px;
+    bottom: 20px;
+}
+
+.back-to-top {   
+	border: 1px solid #FF8C00;
+	border-radius: 8px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.modal-footer {
+	position:relative;
+	top: 10px;
+	padding-bottom: 0px;
+}
+
+.pad-left-25 {
+	padding-left: 25px;
+}
+
+.mvar {
+	font-family: monospace;
+	font-style: italic;
+	font-size: 120%;
+}
+
+.emph {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.bigger {
+	font-size: 120%;
+}
+
+.img-block {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+mrow {
+  text-align: center;
+}
+
+.entry-comments {
+	margin-top: 30px;
+}
+
+.list-results  li{
+	padding: 5px;
+}
+
+/* icons */
+.sideurl  {
+	margin: 15px;
+}
+
+.sideurl #side-book-load h5:before {
+	content: url('/theme/icons/icon-book.png'); 
+	margin-right: 7px; 
+	vertical-align: -5px;
+}
+
+.sideurl #side-archives h5:before {
+	content: url('/theme/icons/icon-archives.png'); 
+	margin-right: 7px; 
+	vertical-align: -5px;
+}
+
+.sideurl #side-rss h5:before {
+	content: url('/theme/icons/icon-rss.png'); 
+	margin-right: 7px; 
+	vertical-align: -5px;
+}
+
+.sideurl #side-twitter h5:before {
+	content: url('/theme/icons/icon-twitter.png'); 
+	margin-right: 7px; 
+	vertical-align: -5px;
+}
+
+.sideurl #side-tags h5:before {
+	content: url('/theme/icons/icon-tags.png'); 
+	margin-right: 7px; 
+	vertical-align: -5px;
+}	
