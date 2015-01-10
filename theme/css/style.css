@@ -1,5 +1,5 @@
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Noto Serif', serif;
 	color: #fff;
 	background-color: #222;
 	padding-top: 75px;
@@ -10,8 +10,17 @@ section {
     margin-top: -75px;
 }
 
+hr {
+	margin-top: 10px; 
+	margin-bottom: 5px; 
+}
+
 p {
     text-indent: 20px;
+	text-align: justify;
+}
+
+.justify {
 	text-align: justify;
 }
 
@@ -43,6 +52,7 @@ ul.list-group.list-group-flush.tagcloud {
 
 .main-container {
 	min-height: 85%;
+	margin-top: 15px;
 }
 
 article {
@@ -50,15 +60,28 @@ article {
 	border-bottom: 1px solid #e5e5e5;
 }
 
+abbr {
+	margin-right: 5px;
+}
+
 h1, .white-line {
 	border-bottom: 1px solid #e5e5e5;
 }
 
+.list-tags {
+	font-size: 90%;
+}
+
+.list-tags.list-inline > span {
+  padding-left: 5px;
+}
+
 #tags > .cloud-tag {
 	background-color: #222;
-	border-radius: 8px;
-	padding: 5px 15px;
+	border-radius: 6px;
+	padding: 5px 10px;
 	margin-bottom: 5px;
+	font-size: 90%;
 }
 
 .back-container {
@@ -135,8 +158,8 @@ mrow {
 	vertical-align: -5px;
 }
 
-.sideurl #side-rss h5:before {
-	content: url('/theme/icons/icon-rss.png'); 
+.sideurl #side-feed h5:before {
+	content: url('/theme/icons/icon-atom.png'); 
 	margin-right: 7px; 
 	vertical-align: -5px;
 }
