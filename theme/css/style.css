@@ -162,6 +162,9 @@ mrow {
 	padding: 5px 10px;
 	font-size: 120%;
 } 
+.p-top-20 {
+	padding-top: 20px;
+}
 
 /* icons */
 .sideurl  {
